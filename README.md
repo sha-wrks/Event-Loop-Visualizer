@@ -1,11 +1,15 @@
-# JS Runtime Visualizer
+<div align="center">
 
-An interactive, browser-based visualization of the JavaScript Event Loop. Write any JavaScript snippet and watch it execute step by step - the Call Stack, Web APIs, Microtask Queue, and Macrotask Queue all update in real time with animated state transitions.
+# JS Runtime Visualizer
 
 ![Version](https://img.shields.io/badge/version-1.0.0-34d399?style=flat-square)
 ![Nuxt](https://img.shields.io/badge/Nuxt-4.x-00DC82?style=flat-square&logo=nuxt.js)
 ![Vue](https://img.shields.io/badge/Vue-3.x-4FC08D?style=flat-square&logo=vue.js)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+
+</div>
+
+An interactive, browser-based visualization of the JavaScript Event Loop. Write any JavaScript snippet and watch it execute step by step - the Call Stack, Web APIs, Microtask Queue, and Macrotask Queue all update in real time with animated state transitions.
 
 ---
 
@@ -131,7 +135,6 @@ Event-Loop-Visualizer/
   - robots.txt
 - nuxt.config.ts            # Nuxt configuration, head meta, Google Fonts
 - tailwind.config.js        # Tailwind theme extensions
-- CLAUDE.md                 # AI coding assistant context file
 ```
 
 ---
