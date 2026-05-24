@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
+
+const { app } = useRuntimeConfig()
+useHead({
+  link: [{ rel: 'icon', type: 'image/svg+xml', href: `${app.baseURL}logo.svg` }],
+})
+
 import { useVMStore } from './stores/useVM'
 import { useInterpreter } from './logic/engine'
 import { gsap } from 'gsap'
